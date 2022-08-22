@@ -1,11 +1,12 @@
 ---
 type: assignment
-date: 2021-10-08T8:00:00+4:30
-title: 'Assignment #3 - Querying with CodeQL'
-pdf: /static_files/assignments/assignment3.pdf
+date: 2022-09-28T8:00:00+4:30
+title: 'Assignment #3 - Symbolic Execution Playground'
+part1: /static_files/assignments/symbolicplayground/part1.pdf
+part2: /static_files/assignments/symbolicplayground/part2.pdf
 due_event: 
     type: due
-    date: 2021-10-22T23:59:00+3:30
+    date: 2022-10-12T23:59:00+3:30
     description: 'Assignment #3 due'
 ---
-In this assignment, you will write CodeQL queries and run them on large codebases and analyze the results.
+In this assignment, you will implement a symbolic execution engine and play with an existing one.
