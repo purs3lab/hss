@@ -5,7 +5,7 @@ title: 'Assignment #1 - LLVM Playground'
 part1: /static_files/assignments/llvmplayground/part1.pdf
 part2: /static_files/assignments/llvmplayground/part2.pdf
 part3: /static_files/assignments/llvmplayground/part3.pdf
-part3: /static_files/assignments/llvmplayground/part4.pdf
+part4: /static_files/assignments/llvmplayground/part4.pdf
 due_event: 
     type: due
     date: 2022-09-12T23:59:00+3:30
