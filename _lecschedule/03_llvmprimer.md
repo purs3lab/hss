@@ -8,3 +8,6 @@ links:
     - url: /static_files/presentations/llvmprimer.pdf
       name: slides
 ---
+**Recommended Readings:**
+- [Galios Connection](./../static_files/notes/galiosconnection.pdf)
+- [Undecidability of Program Analysis](./../static_files/notes/undecidability.pdf)
