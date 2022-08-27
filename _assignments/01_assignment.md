@@ -11,4 +11,4 @@ due_event:
     date: 2022-09-12T23:59:00+3:30
     description: 'Assignment #1 due'
 ---
-In this assignment you will write various analyses using LLVM.
+In this assignment you will write various analyses using LLVM. Look into the Brightspace for how to submit all parts in a single submission.
