@@ -12,7 +12,7 @@ links:
     - url: /static_files/notes/references.pdf
       name: References
 ---
-**Recommended Readings:**
+**Required Readings:**
 - [Galios Connection](./../static_files/notes/galiosconnection.pdf)
 - [Undecidability of Program Analysis](./../static_files/notes/undecidability.pdf)
 

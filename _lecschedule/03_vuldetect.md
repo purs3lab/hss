@@ -8,5 +8,5 @@ links:
     - url: /static_files/presentations/vulstatic2.pdf
       name: slides
 ---
-**Recommended Readings:**
+**Required Readings:**
 - [Chapter 4: Lattice theory](./../static_files/books/spa.pdf)
