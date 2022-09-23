@@ -6,7 +6,7 @@ part1: /static_files/assignments/fuzzerplayground/part1.pdf
 part2: /static_files/assignments/fuzzerplayground/part2.pdf
 due_event:
     type: due
-    date: 2022-10-03T23:59:00+3:30
+    date: 2022-10-07T23:59:00+3:30
     description: 'Assignment #2 due'
 ---
 In this assignment, you will work on developing a fuzzer and modifying existing fuzzer to implement some features.
