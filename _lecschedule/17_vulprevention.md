@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2022-10-17T8:00:00+4:30
-title: Vulnerability Prevention (Part 2: Checked C)
+title: Vulnerability Prevention (Part 2 Checked C)
 tldr: "Principles and techniques for vulnerability prevention."
 thumbnail: /static_files/presentations/bugprev.jpg
 links:
