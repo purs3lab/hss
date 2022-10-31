@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2022-10-28T8:00:00+4:30
-title: Automated Patching (Part 1)
+title: Automated Patching (Part 2)
 tldr: "Solutions and challenges in automated patching."
 thumbnail: /static_files/presentations/autopatch.jpg
 links:
