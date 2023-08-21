@@ -1,6 +1,9 @@
 # Site settings
 course_name: Holistic Software Security
-course_description: "The goal of the course is to bootstrap you into software security research. The
+course_description: "
+<b> This webpage will be updated on August 26th to reflect accurate timings and schedule </b>.
+
+The goal of the course is to bootstrap you into software security research. The
 course provides a complete overview of different aspects of software security and
 standard techniques used to solve various software security problems. We discuss
 generic techniques such as Data flow analysis/ type inference/ dynamic analysis
@@ -26,9 +29,10 @@ We will also be reading research papers and try to analyze the pros and cons cri
 evaluation: "
 We will use the following distribution for grading:
 <ul>
-  <li>Five assignments (50% each).</li>
+  <li>Four assignments (10% each, Total: 40%).</li>
+  <li>Midterm 1 (10%).</li>
+  <li>Midterm 2 (10%).</li>
   <li>Paper presentation (10%).</li>
-  <li>Paper Review (10%).</li>
   <li>Course Project (30%).</li>
 </ul>
 This is a project-heavy course with one-third of the grade depends on the successful
@@ -73,7 +77,7 @@ As a short summary: (i) you are expected to attend all classes (modulo good reas
 (ii) you are supposed to hand in all work before the deadlines (there's a 10% point reduction per day for late hand-ins),
 (iii) if you need special treatment or have special circumstances, talk to the instructor or TA (if there exists one). - Copied from Prof.Payers course."
 
-course_semester: "Fall 2022"
+course_semester: "Fall 2023"
 
 nondiscrimination_statement: "Purdue University is committed to maintaining a community which recognizes and
 values the inherent worth and dignity of every person; fosters tolerance, sensitivity, understanding, and
