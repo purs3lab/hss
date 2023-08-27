@@ -4,9 +4,6 @@ date: 2018-09-17T8:00:00+4:30
 title: Automated Patching
 tldr: "Solutions and challenges in automated patching."
 thumbnail: /static_files/presentations/autopatch.jpg
-links:
-    - url: /static_files/presentations/autopatch.pdf
-      name: slides
 ---
 **Suggested Readings:**
 - [Automatically Finding Patches Using Genetic Programming](https://www.cs.cmu.edu/~clegoues/docs/legoues-icse09.pdf)

@@ -4,9 +4,6 @@ date: 2018-09-17T8:00:00+4:30
 title: Vulnerability Prevention
 tldr: "Principles and techniques for vulnerability prevention."
 thumbnail: /static_files/presentations/bugprev.jpg
-links:
-    - url: /static_files/presentations/vulprevent.pdf
-      name: slides
 ---
 **Suggested Readings:**
 - [SoftBound: Highly Compatible and Complete Spatial Memory Safety for C](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1941&context=cis_reports)

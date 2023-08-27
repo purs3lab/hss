@@ -4,9 +4,7 @@ date: 2018-09-17T8:00:00+4:30
 title: Vulnerability Detection - Fuzzing
 tldr: "Fuzzing for vulnerability detection."
 thumbnail: /static_files/presentations/fuzzing.jpeg
-links:
-    - url: /static_files/presentations/vuldynamic.pdf
-      name: slides
+
 ---
 **Suggested Readings:**
 - [AFL Technical Details](https://github.com/AFLplusplus/AFLplusplus/blob/stable/docs/technical_details.md)

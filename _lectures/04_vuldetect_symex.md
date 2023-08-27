@@ -4,9 +4,6 @@ date: 2018-09-17T8:00:00+4:30
 title: Vulnerability Detection - Symbolic Execution
 tldr: "Symbolic Execution and its application for vulnerability detection."
 thumbnail: /static_files/presentations/symex.png
-links:
-    - url: /static_files/presentations/vulsymex.pdf
-      name: slides
 ---
 **Suggested Readings:**
 - [KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](https://llvm.org/pubs/2008-12-OSDI-KLEE.pdf)

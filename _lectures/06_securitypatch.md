@@ -4,9 +4,6 @@ date: 2018-09-17T8:00:00+4:30
 title: Patch Propagation
 tldr: "Challenges and Solution in patch propagation."
 thumbnail: /static_files/presentations/patch.png
-links:
-    - url: /static_files/presentations/vulpatchprop.pdf
-      name: slides
 ---
 **Suggested Readings:**
 - [Large scale study of security patches](https://www.icir.org/vern/papers/patch-study.ccs17.pdf)

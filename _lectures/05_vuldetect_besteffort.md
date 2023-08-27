@@ -4,9 +4,6 @@ date: 2018-09-17T8:00:00+4:30
 title: Vulnerability Detection - Best Effort
 tldr: "Best effort techniques for vulnerability detection."
 thumbnail: /static_files/presentations/best.png
-links:
-    - url: /static_files/presentations/vulbesteffort.pdf
-      name: slides
 ---
 **Suggested Readings:**
 - [A Few Billion Lines of Code Later: Using Static Analysis to Find Bugs in the Real World](https://cacm.acm.org/magazines/2010/2/69354-a-few-billion-lines-of-code-later/fulltext)
