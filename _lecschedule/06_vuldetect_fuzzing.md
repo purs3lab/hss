@@ -9,7 +9,7 @@ links:
       name: slides
 ---
 **Required Readings:**
-- [AFL Technical Details](https://github.com/AFLplusplus/AFLplusplus/blob/stable/docs/technical_details.md)
+- [AFL Technical Details](https://github.com/purs3lab/AFLplusplus/blob/stable/docs/technical_details.md)
 - [The Art, Science, and Engineering of Fuzzing: A Survey](https://arxiv.org/pdf/1812.00140.pdf)
 
 **Suggested Readings:**
