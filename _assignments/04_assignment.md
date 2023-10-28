@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2023-10-27T8:00:00+4:30
+date: 2023-10-28T8:00:00+4:30
 title: 'Assignment #3 - CodeQL Playground and Real World Bug Finding'
 pdf: /static_files/assignments/codeqlplayground/codeql.pdf
 due_event:
