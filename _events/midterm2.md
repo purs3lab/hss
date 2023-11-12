@@ -6,7 +6,7 @@ hide_from_announcments: true
 ---
 **Topics:**
 - Vulnerability Detection - Best effort.
-- Vulnerability Prevention.
+- Vulnerability Prevention and Checked C.
 - Automated Patching.
 - Patch Propagation.
 
