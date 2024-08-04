@@ -42,16 +42,11 @@ presentation, and a final written paper.
 
 The research project track is out of 400 points distributed as follows:
 
-* Milestone 1 (25 points): Project proposal - {{ site.data.course.research-project.ms1.date | date: "%a %b %d" }}
-* Milestone 2 (50 points): Related work - {{ site.data.course.research-project.ms2.date | date: "%a %b %d" }}
-* Milestone 3 (75 points): Research Plan - {{ site.data.course.research-project.ms3.date | date: "%a %b %d" }}
-* Milestone 4 (25 points): Abstract/Intro - {{ site.data.course.research-project.ms4.date | date: "%a %b %d" }}
-* Milestone 5 (25 points): Presentation - {{ site.data.course.research-project.ms5.date | date: "%a %b %d" }}
-* Milestone 6 (200 points): Final written paper - {{ site.data.course.research-project.ms6.date | date: "%a %b %d" }}
+
 
 ## Milestone 1: Project proposal (25 points)
 
-**Due:** {{ site.data.course.research-project.ms1.date | date: "%a %b %d" }}
+
 
 Milestone 1 is possibly the hardest milestone of the research project, so do
 not be discouraged. The purpose of this milestone is to settle on 1) a project
@@ -111,11 +106,10 @@ must meet with the instructor to determine the final project.
 in the project proposal to discuss project ideas. Meet during office hours, or
 email the instructor for an appointment.
 
-**Examples:** I've provided several [example]({% link files/rms1-examples.pdf %}) project proposals. You may download the `.tex` for this example [here]({% link files/rms1-examples.tex %}).
 
 ## Milestone 2: Related Work (50 points)
 
-**Due:** {{ site.data.course.research-project.ms2.date | date: "%a %b %d" }}
+**Due:** 
 
 One of the most critical and often overlooked portions of a research project is
 a sufficient investigation of related work. For this milestone, you will write
@@ -131,9 +125,7 @@ take note of how the related work section of those papers is written. Many
 papers have poorly written related work sections.  Identify what makes a good
 and bad related work section.
 
-When formatting your related work, use the provided [template]({% link files/relwork-template.tar.gz %}). Include your title and an abstract
-on the first page. Do not change the font size, margins, or any other
-formatting.
+
 
 To receive 40 of the 50 points, the related work must be at least two full
 columns of text (using the provided template) and contain at least 30
@@ -158,7 +150,7 @@ point deduction** from the milestone grade.
 {% endcomment %}
 
 **What to turn in:** PDF of the related work (`lastname-relwork.pdf`) using the
-provided [template]({% link/files/relwork-template.tar.gz %}).
+
 
 **Note about files:** Only `.pdf` files generated from the provided template
 using LaTeX may be submitted. Failure to comply with any of these file format
@@ -167,7 +159,7 @@ the milestone grade.
 
 ## Milestone 3: Research Plan (75 points)
 
-**Due:** {{ site.data.course.research-project.ms3.date | date: "%a %b %d" }}
+
 
 At this point, you have identified a problem and have at least a vague idea of
 your solution or approach to answer an empirical research question. An idea is
@@ -230,7 +222,7 @@ how you plan to evaluate your idea.  You must describe the following:
 
 
 **What to turn in:** PDF of the research plan (`lastname-plan.pdf`) using the
-provided [template]({% link/files/plan-template.tar.gz %}).
+
 
 **Note about files:** Only `.pdf` files generated from the provided template
 using LaTeX may be submitted. Failure to comply with any of these file format
@@ -239,7 +231,7 @@ the milestone grade.
 
 ## Milestone 4: Abstract/Intro (25 points)
 
-**Due:** {{ site.data.course.research-project.ms4.date | date: "%a %b %d" }}
+
 
 The abstract and introduction are crucial to a paper. This is where you
 motivate and pitch your idea and present the high-level results. If you fail to
@@ -274,9 +266,7 @@ The abstract/intro document should be between 1 and 1.5 pages using this
 format, including the title and author block.
 
 **What to turn in:** PDF of the abstract and intro (`lastname-intro.pdf`). Use
-the [final paper template]({% link files/latex-starter.tar.gz
-%}), commenting out the `\input` commands for the other sections in the
-skeleton file.
+
 
 **Note about files:** Only `.pdf` files generated from the provided template
 using LaTeX may be submitted. Failure to comply with any of these file format
@@ -285,7 +275,7 @@ the milestone grade.
 
 ## Milestone 5: Presentation (25 points)
 
-**Due:** {{ site.data.course.research-project.ms5.date | date: "%a %b %d" }}
+
 
 During the last class of the semester, students electing the research track
 will present their work to the class. The duration of the presentation will
@@ -298,11 +288,11 @@ recorded demos are more reliable.
 
 ## Milestone 6: Final Written Paper (200 points)
 
-**Due:**  {{ site.data.course.research-project.ms6.date | date: "%a %b %d" }}
+
 
 The written version of the final project is a conference-quality
 report, consisting of 8–10 pages (not including references), 1-inch margins,
-two column, 10-pt font. Use the provided LaTeX [template]({% link files/latex-starter.tar.gz %}). Suggested outline:
+two column, 10-pt font. 
 
 * Abstract (around 200 words)
 * Introduction (includes references to highly-relevant related work, i.e., state of the art for the problem you are trying to solve)
@@ -314,8 +304,7 @@ two column, 10-pt font. Use the provided LaTeX [template]({% link files/latex-st
 * Conclusions (don't summarize your work here. That's what the abstract was for. Instead provide some philosophical ruminations of your work and future possibilities, i.e., conclusions that you have arrived at as a result of your work.)
 * References
 
-**What to turn in:** PDF of the final paper (lastname-paper.pdf) using the
-provided [template]({% link files/latex-starter.tar.gz %}).
+**What to turn in:** PDF of the 
 
 **Note about files:** Only `.pdf` files generated from the provided template
 using LaTeX may be submitted. Failure to comply with any of these file format
