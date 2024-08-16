@@ -7,8 +7,8 @@ This course has a semester long project. The goal of the course project is to en
 experience various aspects of software security research. The result of the project will be a 
 conference-style presentation. 
 
-This is a semester-long project and is recommended to be done in
-groups of up to three students. Each project group is expected to decide milestones and will
+This is a semester-long project and is recommended to be done individually or in
+groups of two students. Each project group is expected to decide milestones and will
 receive grades based on the satisfactory completion of these milestones and the presentation.
 
 
