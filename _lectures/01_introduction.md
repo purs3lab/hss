@@ -7,8 +7,6 @@ thumbnail: /static_files/presentations/introduction.jpeg
 links:
     - url: /static_files/presentations/introduction.pdf
       name: slides
-    - url: /static_files/presentations/memorycorruption.pdf
-      name: MemoryCorruption
 ---
 **Suggested Readings:**
 - [How to read a scientific paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)
