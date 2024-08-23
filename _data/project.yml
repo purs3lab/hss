@@ -1,0 +1,20 @@
+research-project:
+  ms1:
+    name: "RM1"
+    date: 2022-09-16
+  ms2:
+    name: "RM2"
+    date: 2022-10-07
+  ms3:
+    name: "RM3"
+    date: 2022-10-28
+  ms4:
+    name: "RM4"
+    date: 2022-11-11
+  ms5:
+    name: "RM5"
+    date: 2022-12-01
+    time: "in class"
+  ms6:
+    name: "RM6"
+    date: 2022-12-05

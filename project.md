@@ -3,6 +3,9 @@ layout: page
 title: Project
 permalink: /project/
 ---
+
+> Adopted from [Prof. William Enck's](https://enck.org/) course.
+
 This course has a semester long project. The goal of the course project is to enable students to
 experience various aspects of software security research. The result of the project will be a 
 conference-style presentation. 
@@ -16,8 +19,7 @@ Students can pick a project of their choice after discussing it with the profess
 
 ## Overview
 
-The research project requires that students execute research in {systems or
-network} {security or privacy}.  By completing the research project, students will
+The research project requires that students execute research in {software or systems} {security or privacy}.  By completing the research project, students will
 learn to think critically about security problems and solutions. All solutions
 have limitations, and understanding the ramification of these limitations is
 critical to understanding the security and privacy of an environment.
@@ -40,8 +42,16 @@ presentation, and a final written paper.
 
 ## Project Grading
 
+The research project is out of 400 points distributed as follows:
+
 The research project track is out of 400 points distributed as follows:
 
+* Milestone 1 (25 points): Project proposal - {{ site.data.project.research-project.ms1.date | date: site.dateformat }}
+* Milestone 2 (50 points): Related work - {{ site.data.project.research-project.ms2.date | date: site.dateformat }}
+* Milestone 3 (75 points): Research Plan - {{ site.data.project.research-project.ms3.date | date: site.dateformat }}
+* Milestone 4 (25 points): Abstract/Intro - {{ site.data.project.research-project.ms4.date | date: site.dateformat }}
+* Milestone 5 (25 points): Presentation - {{ site.data.project.research-project.ms5.date | date: site.dateformat }}
+* Milestone 6 (200 points): Final written paper - {{ site.data.project.research-project.ms6.date | date: site.dateformat }}
 
 
 ## Milestone 1: Project proposal (25 points)
