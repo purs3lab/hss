@@ -160,7 +160,7 @@ point deduction** from the milestone grade.
 {% endcomment %}
 
 **What to turn in:** PDF of the related work (`lastname-relwork.pdf`) using the
-provided [template]({% link /hss/static_files/project/relwork-template.tar.gz %}).
+provided [template](./static_files/project/relwork-template.tar.gz).
 
 **Note about files:** Only `.pdf` files generated from the provided template
 using LaTeX may be submitted. Failure to comply with any of these file format
@@ -232,7 +232,7 @@ how you plan to evaluate your idea.  You must describe the following:
 
 
 **What to turn in:** PDF of the research plan (`lastname-plan.pdf`) using the
-provided [template]({% link /hss/static_files/project/plan-template.tar.gz %}).
+provided [template](./static_files/project/plan-template.tar.gz).
 
 **Note about files:** Only `.pdf` files generated from the provided template
 using LaTeX may be submitted. Failure to comply with any of these file format
@@ -276,7 +276,7 @@ The abstract/intro document should be between 1 and 1.5 pages using this
 format, including the title and author block.
 
 **What to turn in:** PDF of the abstract and intro (`lastname-intro.pdf`). Use
-the [final paper template]({% link /hss/static_files/project/latex-starter.tar.gz%}), commenting out the `\input` commands for the other sections in the
+the [final paper template](./static_files/project/latex-starter.tar.gz), commenting out the `\input` commands for the other sections in the
 skeleton file.
 
 **Note about files:** Only `.pdf` files generated from the provided template
@@ -316,7 +316,7 @@ two column, 10-pt font.
 * References
 
 **What to turn in:** PDF of the final paper (lastname-paper.pdf) using the
-provided [template]({% link /hss/static_files/project/latex-starter.tar.gz %}).
+provided [template](./static_files/project/latex-starter.tar.gz).
 
 **Note about files:** Only `.pdf` files generated from the provided template
 using LaTeX may be submitted. Failure to comply with any of these file format
