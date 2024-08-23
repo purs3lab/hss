@@ -154,7 +154,7 @@ collections:
         output: true
     assignments:
         output: true
-    project:
+    projects:
         output: true
     announcements:
         output: false
