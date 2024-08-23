@@ -276,8 +276,7 @@ The abstract/intro document should be between 1 and 1.5 pages using this
 format, including the title and author block.
 
 **What to turn in:** PDF of the abstract and intro (`lastname-intro.pdf`). Use
-the [final paper template]({% link /static_files/project/latex-starter.tar.gz
-| prepend: site.baseurl%}), commenting out the `\input` commands for the other sections in the
+the [final paper template]({% link {{site.baseurl}}/static_files/project/latex-starter.tar.gz%}), commenting out the `\input` commands for the other sections in the
 skeleton file.
 
 **Note about files:** Only `.pdf` files generated from the provided template
