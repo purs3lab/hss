@@ -44,12 +44,12 @@ presentation, and a final written paper.
 
 The research project is out of 400 points distributed as follows:
 
-* Milestone 1 (25 points): Project proposal - {{ site.projects.ms1.date | date: site.dateformat }}
-* Milestone 2 (50 points): Related work - {{ site.projects.ms2.date | date: site.dateformat }}
-* Milestone 3 (75 points): Research Plan - {{ site.projects.ms3.date | date: site.dateformat }}
-* Milestone 4 (25 points): Abstract/Intro - {{ site.projects.ms4.date | date: site.dateformat }}
-* Milestone 5 (25 points): Presentation - {{ site.projects.ms5.date | date: site.dateformat }}
-* Milestone 6 (200 points): Final written paper - {{ site.projects.ms6.date | date: site.dateformat }}
+* Milestone 1 (25 points): Project proposal - {{ site.data.project.research-project.ms1.date | date: site.dateformat }}
+* Milestone 2 (50 points): Related work - {{ site.data.project.research-project.ms2.date | date: site.dateformat }}
+* Milestone 3 (75 points): Research Plan - {{ site.data.project.research-project.ms3.date | date: site.dateformat }}
+* Milestone 4 (25 points): Abstract/Intro - {{ site.data.project.research-project.ms4.date | date: site.dateformat }}
+* Milestone 5 (25 points): Presentation - {{ site.data.project.research-project.ms5.date | date: site.dateformat }}
+* Milestone 6 (200 points): Final written paper - {{ site.data.project.research-project.ms6.date | date: site.dateformat }}
 
 
 ## Milestone 1: Project proposal (25 points)
