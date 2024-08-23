@@ -114,8 +114,8 @@ must meet with the instructor to determine the final project.
 in the project proposal to discuss project ideas. Meet during office hours, or
 email the instructor for an appointment.
 
-**Examples:** I've provided several [example]({% link /hss/static_files/project/rms1-examples.pdf %}) project proposals. 
-You may download the `.tex` for this example [here]({% link /hss/static_files/project/rms1-examples.tex %}).
+**Examples:** I've provided several [example](./static_files/project/rms1-examples.pdf) project proposals. 
+You may download the `.tex` for this example [here](./static_files/project/rms1-examples.tex).
 
 ## Milestone 2: Related Work (50 points)
 
