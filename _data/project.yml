@@ -1,20 +1,20 @@
 research-project:
   ms1:
     name: "RM1"
-    date: 2022-09-16
+    date: 2024-09-09
   ms2:
     name: "RM2"
-    date: 2022-10-07
+    date: 2024-09-23
   ms3:
     name: "RM3"
-    date: 2022-10-28
+    date: 2024-10-07
   ms4:
     name: "RM4"
-    date: 2022-11-11
+    date: 2024-10-21
   ms5:
     name: "RM5"
-    date: 2022-12-01
+    date: 2024-12-06
     time: "in class"
   ms6:
     name: "RM6"
-    date: 2022-12-05
+    date: 2024-12-11

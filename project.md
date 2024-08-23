@@ -114,8 +114,8 @@ must meet with the instructor to determine the final project.
 in the project proposal to discuss project ideas. Meet during office hours, or
 email the instructor for an appointment.
 
-**Examples:** I've provided several [example]({% link static_files/project/rms1-examples.pdf %}) project proposals. 
-You may download the `.tex` for this example [here]({% link static_files/project/rms1-examples.tex %}).
+**Examples:** I've provided several [example]({% link /static_files/project/rms1-examples.pdf %}) project proposals. 
+You may download the `.tex` for this example [here]({% link /static_files/project/rms1-examples.tex %}).
 
 ## Milestone 2: Related Work (50 points)
 
@@ -160,7 +160,7 @@ point deduction** from the milestone grade.
 {% endcomment %}
 
 **What to turn in:** PDF of the related work (`lastname-relwork.pdf`) using the
-provided [template]({% link static_files/project/relwork-template.tar.gz %}).
+provided [template]({% link /static_files/project/relwork-template.tar.gz %}).
 
 **Note about files:** Only `.pdf` files generated from the provided template
 using LaTeX may be submitted. Failure to comply with any of these file format
@@ -169,7 +169,7 @@ the milestone grade.
 
 ## Milestone 3: Research Plan (75 points)
 
-
+**Due:** {{ site.data.project.research-project.ms3.date | date: site.dateformat }}
 
 At this point, you have identified a problem and have at least a vague idea of
 your solution or approach to answer an empirical research question. An idea is
@@ -232,7 +232,7 @@ how you plan to evaluate your idea.  You must describe the following:
 
 
 **What to turn in:** PDF of the research plan (`lastname-plan.pdf`) using the
-
+provided [template]({% link /static_files/project/plan-template.tar.gz %}).
 
 **Note about files:** Only `.pdf` files generated from the provided template
 using LaTeX may be submitted. Failure to comply with any of these file format
@@ -241,7 +241,7 @@ the milestone grade.
 
 ## Milestone 4: Abstract/Intro (25 points)
 
-
+**Due:** {{ site.data.project.research-project.ms4.date | date: site.dateformat }}
 
 The abstract and introduction are crucial to a paper. This is where you
 motivate and pitch your idea and present the high-level results. If you fail to
@@ -276,7 +276,9 @@ The abstract/intro document should be between 1 and 1.5 pages using this
 format, including the title and author block.
 
 **What to turn in:** PDF of the abstract and intro (`lastname-intro.pdf`). Use
-
+the [final paper template]({% link /static_files/project/latex-starter.tar.gz
+%}), commenting out the `\input` commands for the other sections in the
+skeleton file.
 
 **Note about files:** Only `.pdf` files generated from the provided template
 using LaTeX may be submitted. Failure to comply with any of these file format
@@ -285,7 +287,7 @@ the milestone grade.
 
 ## Milestone 5: Presentation (25 points)
 
-
+**Due:** {{ site.data.project.research-project.ms5.date | date: site.dateformat }}
 
 During the last class of the semester, students electing the research track
 will present their work to the class. The duration of the presentation will
@@ -298,7 +300,7 @@ recorded demos are more reliable.
 
 ## Milestone 6: Final Written Paper (200 points)
 
-
+**Due:** {{ site.data.project.research-project.ms6.date | date: site.dateformat }}
 
 The written version of the final project is a conference-quality
 report, consisting of 8–10 pages (not including references), 1-inch margins,
@@ -314,7 +316,8 @@ two column, 10-pt font.
 * Conclusions (don't summarize your work here. That's what the abstract was for. Instead provide some philosophical ruminations of your work and future possibilities, i.e., conclusions that you have arrived at as a result of your work.)
 * References
 
-**What to turn in:** PDF of the 
+**What to turn in:** PDF of the final paper (lastname-paper.pdf) using the
+provided [template]({% link /static_files/project/latex-starter.tar.gz %}).
 
 **Note about files:** Only `.pdf` files generated from the provided template
 using LaTeX may be submitted. Failure to comply with any of these file format
