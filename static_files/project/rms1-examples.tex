@@ -1,0 +1,132 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   File          : rms1-examples.tex
+%   Author(s)     : William Enck <whenck@ncsu.edu>
+%   Description   : Examples for Research Project Milestone 1
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,pdftex]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage{url}
+%\usepackage[pdftex,colorlinks=true,citecolor=black,filecolor=black,%
+%            linkcolor=black,urlcolor=black]{hyperref}
+\usepackage[usenames,dvipsnames]{xcolor} % Provides color
+\usepackage[]{hyperref}         % ...clickable refs within pdf...
+\hypersetup{                    % ...like so
+  colorlinks,
+  linkcolor={green!80!black},
+  citecolor={red!70!black},
+  urlcolor={blue!70!black}
+}
+
+%\usepackage[compact,noindentafter]{titlesec}
+%\titlespacing{\section}{0pt}{2ex}{1ex}
+%\titlespacing{\subsection}{0pt}{1ex}{0ex}
+%\titlespacing{\subsubsection}{0pt}{0.5ex}{0ex}
+\usepackage[]{titlesec}
+\titleformat{\paragraph}[runin]{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}[:]
+\titlespacing*{\paragraph}{0pt}{0.25em}{0.5em}
+
+\usepackage{times}
+%\usepackage{listings}
+%\usepackage{fancyvrb}
+%\usepackage{amsmath}
+%\usepackage{amsthm}
+%\usepackage{amssymb}
+
+%\lstset{ % for our code environment
+%    language={},
+%    basicstyle=\ttfamily}
+%\let\code\lstinline
+
+\title{Examples for Research Project Milestone 1}
+\author{Prof. William Enck}
+\date{February 7, 2021}
+
+\begin{document}
+
+\maketitle
+
+\section{Example for Empirical Study}
+
+\subsection{PoliCheck}
+
+\paragraph{Note} 
+This example project proposal corresponds to Andow et al., ``Actions Speak Louder than Words: Entity-Sensitive Privacy Policy and Data Flow Analysis with PoliCheck'', In Proceedings of the USENIX Security Symposium, 2020.
+
+\begin{description}
+
+  \item[Title:] Actions Speak Louder than Words: Entity-Sensitive Privacy Policy and Data Flow Analysis with PoliCheck
+
+  \item[Research Question:] 
+    Privacy is a long-standing open research challenge for mobile applications. 
+    Literature has proposed various program analysis tools for Android and iOS apps, often citing private-information disclosure as motivations.
+    However, just because an application sends privacy-sensitive information to the Internet does not mean there is a privacy violation.
+    A recent idea proposed in research is to compare the \emph{flows} of privacy sensitive information observed for an application to the \emph{language} in the application's privacy policy.
+    While there have been some studies that have attempted to measure this \emph{flow-to-policy consistency}, their measurement was limited in that is not sensitive to the \emph{entity} receiving the information.
+    For example, they assume that if a privacy policy states the app will share sensitive data to \emph{any} party (first or third party), then it is okay to send to \emph{any} party (first or third-party).
+    This assumption may falsely claim that an app is consistent with its policy if, for example, the policy states that only the first-party (app developer) will receive a type of data, but the app also sends the data to an advertiser.
+    This leads to the following research question:
+
+    \textit{Does \emph{entity-sensitive} flow-to-policy consistency identify more inconsistent mobile applications than entity-insensitive analysis, and if so, what is the impact of the previous over-estimation?}
+
+  \item[Proposed Methodology:] 
+    We will formally define an \emph{entity-sensitive} flow-to-policy consistency model for mobile applications.
+    We will then build upon two prior tools:
+    (1) PolicyLint, which extracts data sharing statements from privacy policies, and
+    (2) AppCensus, which dynamically analyzes mobile apps to identify when privacy sensitive information is sent to the network.
+    We will apply these tools to a large set of free mobile applications and their privacy policies, which we will download from the Google Play Store.
+    Using this data, we will answer the above research question.
+
+  \item[Expected Findings:]
+    We expect to find that without entity-sensitive analysis, prior flow-to-policy consistency measurements have significantly underestimated the problem, and that many applications send information to third-parties (e.g., analytics servers) that are not mentioned in the app's privacy policy.
+
+\end{description}
+
+\newpage
+
+\section{Example for Building a Solution}
+
+\paragraph{Note}
+This example proposal corresponds to Nadkarni et al., ``Practical DIFC Enforcement on Android'', In proceedings of the USENIX Security Symposium, 2016.
+
+\begin{description}
+
+  \item[Title:] Practical DIFC Enforcement on Android
+
+  \item[Problem:]
+    Application-based modern operating systems, such as Android, thrive on their rich application ecosystems. 
+    Applications integrate with each other to perform complex user tasks, providing a seamless user experience. 
+    To work together, applications share user data with one another. 
+    Such sharing exposes the user’s private and enterprise information to the risk of exfiltration from the device.
+    Unfortunately, Android's permissions are only enforced at the first point of access. 
+    Once data is into the memory of an untrusted application, it can be exported.
+
+    The classic way to address this problem is using Information Flow Control (IFC).
+    Unfortunately, incorporating IFC into commodity operating systems has been historically challenging, because applications often deal with many different types of information during an execution, leading to poor information tracking precision and subsequently a phenomenon commonly known as label explosion or label creep.
+    Several prior works have identified that Android's runtime model, which is based on collections of event-driven components (e.g., activity components), may be particularly amenable to IFC.
+    However, attempts of incorporating IFC into Android have been limited, frequently breaking backwards compatibility by improperly killing processes or blocking until an application voluntarily exits, which can lead to deadlocks.
+
+  \item[Solution Idea:]
+    We propose a novel solution to IFC in Android called \emph{lazy polyinstantiation}.
+    The key idea is that our approach manages instances of each application, their components, and their storage for each secrecy context from which an application is called.
+
+  \item[Solution Approach:]
+    We will create a formal model for incorporating lazy polyinstantiation into Android and then modify the Android Open Source Project (AOSP) with logic that encodes our model.
+    We will then formally evaluate the security of our model, as well as empirically evaluate the compatibility of our modified Android using a collection of real applications downloaded from the Google Play Store.
+
+  \item[Expected Findings:]
+    We expect that our lazy polyinstantiation model will be secure.
+    We expect that our model and implementation will be compatible with existing applications.
+    For example, it will not require improperly killing processes or blocking.
+    Finally, we expect the performance overhead of our implementation to be minimal.
+
+\end{description}
+
+
+\end{document}
+
+

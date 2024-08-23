@@ -44,8 +44,6 @@ presentation, and a final written paper.
 
 The research project is out of 400 points distributed as follows:
 
-The research project track is out of 400 points distributed as follows:
-
 * Milestone 1 (25 points): Project proposal - {{ site.data.project.research-project.ms1.date | date: site.dateformat }}
 * Milestone 2 (50 points): Related work - {{ site.data.project.research-project.ms2.date | date: site.dateformat }}
 * Milestone 3 (75 points): Research Plan - {{ site.data.project.research-project.ms3.date | date: site.dateformat }}
@@ -56,7 +54,7 @@ The research project track is out of 400 points distributed as follows:
 
 ## Milestone 1: Project proposal (25 points)
 
-
+**Due:** {{ site.data.project.research-project.ms1.date | date: site.dateformat }}
 
 Milestone 1 is possibly the hardest milestone of the research project, so do
 not be discouraged. The purpose of this milestone is to settle on 1) a project
@@ -116,10 +114,12 @@ must meet with the instructor to determine the final project.
 in the project proposal to discuss project ideas. Meet during office hours, or
 email the instructor for an appointment.
 
+**Examples:** I've provided several [example]({% link static_files/project/rms1-examples.pdf %}) project proposals. 
+You may download the `.tex` for this example [here]({% link static_files/project/rms1-examples.tex %}).
 
 ## Milestone 2: Related Work (50 points)
 
-**Due:** 
+**Due:** {{ site.data.project.research-project.ms2.date | date: site.dateformat }}
 
 One of the most critical and often overlooked portions of a research project is
 a sufficient investigation of related work. For this milestone, you will write
@@ -160,7 +160,7 @@ point deduction** from the milestone grade.
 {% endcomment %}
 
 **What to turn in:** PDF of the related work (`lastname-relwork.pdf`) using the
-
+provided [template]({% link static_files/project/relwork-template.tar.gz %}).
 
 **Note about files:** Only `.pdf` files generated from the provided template
 using LaTeX may be submitted. Failure to comply with any of these file format
