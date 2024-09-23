@@ -1,9 +1,8 @@
 ---
 type: exam
-date: 2023-10-04T08:00:00+3:30
+date: 2024-10-02T08:00:00+3:30
 description: 'Midterm 1 (In class, closed book, 50 min).'
 hide_from_announcments: true
-hidden: true
 ---
 **Topics:**
 - Abstract Interpretation
