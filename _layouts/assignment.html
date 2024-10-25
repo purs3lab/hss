@@ -17,6 +17,9 @@ title: page.title
       {% if page.pdf %}
       [<a href="{{ page.pdf | prepend: site.baseurl }}">problems</a>]
       {% endif %}
+      {% if page.task %}
+      [<a href="{{ page.task }}">Task</a>]
+      {% endif %}
       {% if page.part1 %}
       [<a href="{{ page.part1 | prepend: site.baseurl }}">Part 1</a>]
       {% endif %}
