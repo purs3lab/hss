@@ -1,15 +1,11 @@
 ---
 type: exam
-date: 2024-10-02T08:00:00+3:30
+date: 2025-10-08T08:00:00+3:30
 description: 'Midterm 1 (In class, closed book, 50 min).'
 hide_from_announcments: true
 ---
 **Topics:**
-- Abstract Interpretation
-- Static Analysis -- Sound, Complete, Sensitivities
-- Fuzzing -- AFL++, Coverage, Feedback, etc.
-- Symbolic Execution -- Technique, advantages, disadvantages.
-- Sanitizers -- Technique, Types, Pros, Cons.
+- TBA
 
 **Style:**
 - On paper --- old style.

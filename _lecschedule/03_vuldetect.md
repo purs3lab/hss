@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2024-08-28T8:00:00+4:30
+date: 2025-08-29T8:00:00+4:30
 title: Memory Corruption and Vulnerability Detection - Static analysis (Part 2)
 tldr: "Vulnerability detection through static analysis."
 thumbnail: /static_files/presentations/staticanalysis.jpeg

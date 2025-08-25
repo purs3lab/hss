@@ -1,8 +1,8 @@
 ---
 layout: home
 ---
-<b>When:</b> MWF 10:30 am - 11:20 pm, <b>Where:</b> BHEE 224
+<b>When:</b> MWF 1:30 pm - 2:20 pm, <b>Where:</b> BHEE 226
 
-<b>Instructor Office Hours:</b>  Monday 11:30 am - 1:00 pm @ BHEE 333
+<b>Instructor Office Hours:</b>  Monday 2:30 pm - 3:30 pm @ BHEE 333
 
-Join our [Slack Channel](https://join.slack.com/t/purs3-hss/shared_invite/zt-21o2gh6yq-wW9qhT1HngG0B1UvqB6MQw) for course related collaborations!
+Join our [Slack Channel](https://join.slack.com/t/purs3-hss/shared_invite/zt-3bx16fpo3-bM39_cFle9ZU0d18SmnvVw) for course related collaborations!

@@ -1,5 +1,5 @@
 ---
 type: milestone
 name: "Project Proposal Due"
-date: 2024-09-09
+date: 2025-09-05
 ---

@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2024-08-21T8:00:00+4:30
+date: 2025-08-25T8:00:00+4:30
 title: "Introduction"
 tldr: "Course Introduction and Logistics."
 thumbnail: /static_files/presentations/introduction.jpeg
