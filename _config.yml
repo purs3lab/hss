@@ -30,9 +30,10 @@ We will use the following distribution for grading:
   <li>Three assignments (10% each, Total: 30%).</li>
   <li>Midterm 1 (10%).</li>
   <li>Midterm 2 (10%).</li>
-  <li>Course Project (50%).</li>
+  <li>Paper Presentation (10%).</li>
+  <li>Course Project (40%).</li>
 </ul>
-This is a project-heavy course with half of the grade depends on the successful
+This is a project-heavy course with more than two-third of the grade depends on the successful
 completion of the project.
 "
 course_project: "The goal of the course project is to enable students to experience various aspects of
@@ -40,7 +41,7 @@ software security research.  The result of the project will be a conference-styl
 This is a semester-long project and is recommended to be done in groups of up to three students.
 Each project group is expected to decide milestones and will receive grades based on the satisfactory
 completion of these milestones and the presentation. Potential project ideas are
-<a href=\"https://docs.google.com/spreadsheets/d/1Tmm2GvXN-9Uo8grPoXuJoPQM2JYPeSCf8a16RkJmFkA/\">here</a>.
+<a href=\"https://docs.google.com/spreadsheets/d/1zi06Xj4aF8KSJ6bC97aFQ-qZlR5FaKzPJZTr7KJghSY/edit?usp=sharing\">here</a>.
 Although, students can pick a project of their choice after discussing it with the professor."
 
 course_prereqs: "This is a hands-on graduate-level course, with most of the assignments involves writing C/C++ code.
