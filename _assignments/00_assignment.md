@@ -5,7 +5,7 @@ title: 'Assignment #0 - Self Assessment'
 pdf: /static_files/assignments/assignment0.pdf
 due_event: 
     type: due
-    date: 2024-08-23T23:59:00+3:30
+    date: 2025-08-29T23:59:00+3:30
     description: 'Assignment #0 due'
 ---
 This is a self assessment to understand your preparedness for this course!
