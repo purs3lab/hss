@@ -5,7 +5,11 @@ description: 'Midterm 1 (In class, closed book, 50 min).'
 hide_from_announcments: true
 ---
 **Topics:**
-- TBA
+- Abstract Interpretation
+- Static Analysis -- Sound, Complete, Sensitivities
+- Fuzzing -- AFL++, Coverage, Feedback, etc.
+- Symbolic Execution -- Technique, advantages, disadvantages.
+- Sanitizers -- Technique, Types, Pros, Cons.
 
 **Style:**
 - On paper --- old style.
