@@ -5,7 +5,10 @@ description: 'Midterm 2.'
 hide_from_announcments: true
 ---
 **Topics:**
-- TBA
+- Vulnerability Detection - Best effort.
+- Vulnerability Prevention and Checked C.
+- Automated Patching.
+- Patch Propagation.
 
 **Style:**
 - On paper --- old style.
